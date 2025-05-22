@@ -1,0 +1,61 @@
+# Archivos de configuración sensibles
+*.env
+*.secrets
+*.secret
+*.key
+*.pem
+*.crt
+*.jks
+*.p12
+*.properties
+!src/main/resources/application.properties
+!src/main/resources/application-*.properties
+release.properties
+
+# Archivos de compilación Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de empaquetado
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Directorios de Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de logs
+*.log
+hs_err_pid*
+replay_pid*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Archivos de BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Archivos de Docker
+.env
+
+# Archivos de base de datos temporales
+*.db
+*.sqlite
+
+# Volúmenes y backups
+/bbdd/backup/
